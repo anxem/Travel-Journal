@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+section {
+  padding: 20px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1.5625rem;
+  line-height: 2.5rem;
+  color: #2b283a;
+  margin-bottom: 1.25rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 14.24px;
+  font-weight: 400;
+  line-height: 15.36px;
+  color: #2b283a;
+}
+
+nav {
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f55a5a;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.site--logo_texts {
+  margin-left: 8px;
+}
+
+.container-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 15px 30px 15px;
+}
+
+.card {
+  max-width: 670px;
+  display: flex;
+  gap: 25px;
+  flex-direction: row;
+  padding: 10px;
+}
+
+/* .img--box {
+  width: 35%;
+  height: 168px;
+  border-radius: 5px;
+} */
+
+.card > img {
+  width: 35%;
+  height: auto;
+  min-height: 178px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.details--box {
+  width: 60%;
+  padding: 20px 0;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+}
+
+.location > img {
+  height: 13px;
+  margin-right: 8px;
+}
+
+.location > h4 {
+  font-weight: 400;
+  font-size: 14.24px;
+  line-height: 12.39px;
+  text-transform: uppercase;
+  color: #2b283a;
+}
+
+.location > a {
+  margin-left: 20px;
+  color: #918e9b;
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-size: 14.24px;
+  line-height: 19px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.place--visited {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 40.26px;
+  color: #2b283a;
+  margin-bottom: 9px;
+}
+
+.date--visited {
+  color: #2b283a;
+  font-weight: 700;
+  font-size: 14.24px;
+  line-height: 25.39px;
+}
+
+@media only screen and (max-width: 455px) {
+  .card {
+    flex-direction: column;
+    gap: 10px;
+    /* flex-basis: 255px; */
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .card > img {
+    width: 100%;
+  }
+
+  .details--box {
+    width: 100%;
+  }
+}
