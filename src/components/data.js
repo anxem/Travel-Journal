@@ -1,4 +1,4 @@
-export default [
+const data = [
   {
     id: 1,
     title: "Mount Fuji",
@@ -57,3 +57,5 @@ export default [
       "https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_600,q_auto,w_auto/v1/filestore/4v52cyzcy32psulhzs1ji52cgq4j_1540534669_DUBAI_2.jpg",
   },
 ];
+
+export default data;
